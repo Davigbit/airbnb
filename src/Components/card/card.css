@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.card {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.75rem;
+    color: rgba(34, 34, 34, 1);
+    width: 180px;
+    position: relative;
+}
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: hsla(0, 0%, 100%, 0.80);
+    padding: 5px 7px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.card--img {
+    border-radius: 15px;
+    max-height: 235px;
+}
+.card--info {
+    display: flex;
+    flex-direction: column;
+}
+.info1 {
+    display: flex;
+    padding-block: 2.5px;
+    align-items: center;
+}
+.info1 img {
+    height: 14px;
+    width: auto;
+    margin-right: 5px;
+}
+.info1--rating {
+    font-weight: 700;
+    margin-right: 4px;
+}
+.info1--rest {
+    color: rgba(145, 142, 155, 1);
+}
+.title {
+    flex: 1;
+    padding-block: 2.5px;
+}
+.info2 {
+    display: flex;
+    padding-block: 2.5px;
+    margin-top: auto;
+}
+.info2--price {
+    font-weight: 700;
+    margin-right: 4px;
+}
+.cardList {
+    padding-inline: 25px;
+    padding-block: 20px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+.cardList::-webkit-scrollbar {
+    width: 0;
+}
