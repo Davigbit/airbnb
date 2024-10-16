@@ -23,7 +23,7 @@
 }
 .card--img {
     border-radius: 15px;
-    max-height: 235px;
+    height: 235px;
 }
 .card--info {
     display: flex;

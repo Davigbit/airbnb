@@ -37,5 +37,57 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Photo Tour in Copacabana",
+        description: "Explore the beauties of Rio.",
+        price: 70,
+        coverImg: "rio-copacabana.webp",
+        stats: {
+            rating: 4.9,
+            reviewCount: 24
+        },
+        location: "Brazil",
+        openSpots: 20,
+    },
+    {
+        id: 5,
+        title: "Group Horse Riding",
+        description: "Experience the mountains with your best friends.",
+        price: 156,
+        coverImg: "horse.webp",
+        stats: {
+            rating: 4.4,
+            reviewCount: 21
+        },
+        location: "Canada",
+        openSpots: 0,
+    },
+    {
+        id: 6,
+        title: "Guided Tour in Rome",
+        description: "Explore Romain History with Certified Tour Guides.",
+        price: 110,
+        coverImg: "rome.webp",
+        stats: {
+            rating: 4.5,
+            reviewCount: 3
+        },
+        location: "Italy",
+        openSpots: 15,
+    },
+    {
+        id: 7,
+        title: "Montreal History Classes",
+        description: "Expand your Montreal's knowledge with history classes.",
+        price: 45,
+        coverImg: "mtl.webp",
+        stats: {
+            rating: 4.0,
+            reviewCount: 12
+        },
+        location: "Online",
+        openSpots: 9,
     }
 ]
