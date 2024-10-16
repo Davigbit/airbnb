@@ -2,6 +2,4 @@
 
 Data driven mobile version of the AirBnb Experiences Website
 
-## Webstie
-
-https://mobile-davigbit.netlify.app/
+<a href="https://mobile-davigbit.netlify.app/" target="_blank">Website</a>
