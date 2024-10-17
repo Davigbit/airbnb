@@ -1,6 +1,11 @@
-# AirBnb Project
+# Mobile Project Using React
 
 Data driven mobile version of the AirBnb Experiences Website
 
-Please open the following with a mobile device:
-https://mobile-davigbit.netlify.app/
+Install Node.js: 
+https://nodejs.org/en/download/prebuilt-installer
+
+Access the project folder using the terminal and type:
+```
+npm run dev
+```
